@@ -2,18 +2,10 @@
  * @Description: 
  * @Author: HCQ
  * @Company(School): UCAS
- * @Date: 2020-10-06 21:13:33
+ * @Date: 2020-10-07 17:01:37
  * @LastEditors: HCQ
- * @LastEditTime: 2020-10-07 16:58:16
+ * @LastEditTime: 2020-10-07 17:01:40
 -->
-# docker
-docker容器
-
-@ [ChungKing](https://github.com/HuangCongQing/AI_competitions)，若fork或star请注明来源
-
-
-website： https://www.docker.com
-
 # Docker介绍
 
 ![](https://cdn.nlark.com/yuque/0/2020/png/232596/1592043513145-b9a847bd-fb7b-4f1d-83bd-81267c6c5725.png#align=left&display=inline&height=119&margin=%5Bobject%20Object%5D&originHeight=119&originWidth=199&size=0&status=done&style=none&width=199)<br />
@@ -60,11 +52,3 @@ Docker类比于**虚拟机+操作系统**<br />
 
 <br />
 <br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/232596/1592048275075-6dfb9e07-9d06-4f4d-9883-2fae7d03d596.png#align=left&display=inline&height=400&margin=%5Bobject%20Object%5D&name=image.png&originHeight=595&originWidth=1110&size=483979&status=done&style=none&width=746)
-
-
-
-### License
-
-Copyright (c) [ChungKing](https://github.com/HuangCongQing/docker). All rights reserved.
-
-Licensed under the [MIT](./LICENSE) License.
