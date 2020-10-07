@@ -92,8 +92,10 @@ docker rmi  `docker images -aq`   # 一次性删除所有本地的镜像记录
 <a name="GdTNR"></a>
 ## 2 镜像命令  images serach pull rmi
 
-<br />
-<br />**docker images  # 查看所有主机上的镜像**<br />**![image.png](https://cdn.nlark.com/yuque/0/2020/png/232596/1592066626773-66d7e8dc-04c0-4724-828f-272c919b7dfc.png#align=left&display=inline&height=98&margin=%5Bobject%20Object%5D&name=image.png&originHeight=139&originWidth=1021&size=166059&status=done&style=none&width=718)**<br />**
+**docker images  # 查看所有主机上的镜像**
+
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/232596/1592066626773-66d7e8dc-04c0-4724-828f-272c919b7dfc.png#align=left&display=inline&height=98&margin=%5Bobject%20Object%5D&name=image.png&originHeight=139&originWidth=1021&size=166059&status=done&style=none&width=718)
+
 ```shell
 docker images  # 查看所有主机上的镜像
 
@@ -272,8 +274,10 @@ docker cp  容器id:xxx  xxx
 
 <a name="UIpxM"></a>
 ## 5 命令小结(附图片)
-![image.png](https://cdn.nlark.com/yuque/0/2020/png/232596/1592110858160-9a33f734-dc95-48d3-a0f4-b1237337296b.png#align=left&display=inline&height=536&margin=%5Bobject%20Object%5D&name=image.png&originHeight=748&originWidth=1042&size=465433&status=done&style=none&width=746)<br />
-<br />**
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/232596/1592110858160-9a33f734-dc95-48d3-a0f4-b1237337296b.png#align=left&display=inline&height=536&margin=%5Bobject%20Object%5D&name=image.png&originHeight=748&originWidth=1042&size=465433&status=done&style=none&width=746)
+
+
+
 ```powershell
 Usage:
 docker [OPTIONS] COMMAND [arg...]

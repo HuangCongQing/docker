@@ -4,7 +4,7 @@
  * @Company(School): UCAS
  * @Date: 2020-10-06 21:13:33
  * @LastEditors: HCQ
- * @LastEditTime: 2020-10-07 17:09:04
+ * @LastEditTime: 2020-10-07 17:11:56
 -->
 # docker
 docker容器
@@ -37,12 +37,11 @@ Docker 官网：[https://www.docker.com](https://www.docker.com/)<br />Github Do
 > Docker的前身是名为dotCloud的小公司，主要提供的是基于 PaaS（Platform as a  Service，平台及服务）平台为开发者或开发商提供技术服务，并提供的开发工具和技术框架。因为其为初创的公司，又生于IT行业，dotCloud受到了IBM，亚马逊，google等公司的挤压，发展举步维艰。于是，在2013年dotCloud  的创始人，年仅28岁的Solomon Hykes做了一个艰难的决定：**将dotCloud的核心引擎开源！**然而一旦这个基于 LXC（Linux  Container）技术的核心管理引擎开源，dotCloud公司就相当于走上了一条"不归路"。可正是这个孤注一掷的举动，却带来了全球技术人员的热潮，众程序员惊呼：太方便了，太方便了。也正是这个决定，让所有的IT巨头也为之一颤。一个新的公司也随之出世，它就是：Docker。可以说，Docker是一夜成名的！！
 
 
-<br />
 
 - 官方注册服务器（[hub.docker.com](https://hub.docker.com/)）的仓库中pull下CentOS的镜像
 
 Docker类比于**虚拟机+操作系统**<br />
-<br />**镜像：**提供运行环境，类似模板
+**镜像：** 提供运行环境，类似模板
 
 - 好比一个模板，可以通过模板来创建容器服务
 - tomcat==》tomcat01容器（提供服务），通过镜像可以创建多个容器（最终服务运行正在容器中）
@@ -55,7 +54,7 @@ Docker类比于**虚拟机+操作系统**<br />
 - **启动 开始 停止 删除基本命令**
 - 可以理解为一个linux系统
 
-**仓库：**类似于代码仓库，用来存放镜像文件（比如，各种版本的Ubuntu）的地方
+**仓库：** 类似于代码仓库，用来存放镜像文件（比如，各种版本的Ubuntu）的地方
 
 - 仓库注册服务器（Registry）上往往存放着多个仓库，**每个仓库中又包含了多个镜像，**每个镜像有不同的标签**（tag）**
 - 分为**共有仓库和私有仓库**
@@ -63,8 +62,7 @@ Docker类比于**虚拟机+操作系统**<br />
 - Docker Hub仓库存放镜像的地方，都存放在[hub.docker.com](https://hub.docker.com/)
 
 
-<br />
-<br />![image.png](https://cdn.nlark.com/yuque/0/2020/png/232596/1592048275075-6dfb9e07-9d06-4f4d-9883-2fae7d03d596.png#align=left&display=inline&height=400&margin=%5Bobject%20Object%5D&name=image.png&originHeight=595&originWidth=1110&size=483979&status=done&style=none&width=746)
+![image.png](https://cdn.nlark.com/yuque/0/2020/png/232596/1592048275075-6dfb9e07-9d06-4f4d-9883-2fae7d03d596.png#align=left&display=inline&height=400&margin=%5Bobject%20Object%5D&name=image.png&originHeight=595&originWidth=1110&size=483979&status=done&style=none&width=746)
 
 
 
